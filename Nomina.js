@@ -1,9 +1,10 @@
 const prompt = require("prompt-sync")()
 var trabajadores = []
 let inicio = iniciarSesion()
+if(inicio === true){
 let crear = crearTrabajador(inicio)
 let imprimir = imprimirDatos(crear)
-
+}
 
 
 
